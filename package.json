@@ -1,0 +1,16 @@
+{
+  "name": "reverse2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-path-router": "^1.1.0",
+    "simple-reverse-proxy": "^1.0.2"
+  }
+}
