@@ -5,7 +5,7 @@ new SimplePathRouter()
 .when('/', new SimpleReverseProxy(['http://testing-toolkit.local:8080']))
 .listen(3000);
 
-[8080].forEach(function (port) {
+[3000].forEach(function (port) {
 require('http')
     .createServer(function (req, res) {
         res.statusCode = 200;
